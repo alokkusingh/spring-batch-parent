@@ -1,2 +1,4 @@
 # spring-batch-parent
-Maven parent project for spring-patch modules
+Maven parent project for spring-batch modules
+- spring-batch
+- spring-batch-pdf-parser
