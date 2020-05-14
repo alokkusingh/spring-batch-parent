@@ -1,3 +1,6 @@
 [submodule "spring-batch"]
 	path = spring-batch
 	url = https://github.com/alokkusingh/spring-batch.git
+[submodule "spring-batch-pdf-parser"]
+	path = spring-batch-pdf-parser
+	url = https://github.com/alokkusingh/spring-batch-pdf-parser.git

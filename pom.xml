@@ -76,5 +76,6 @@
   <modules>
     <module>module-test</module>
     <module>spring-batch</module>
+    <module>spring-batch-pdf-parser</module>
   </modules>
 </project>
