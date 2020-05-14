@@ -1,0 +1,3 @@
+[submodule "spring-batch"]
+	path = spring-batch
+	url = https://github.com/alokkusingh/spring-batch.git

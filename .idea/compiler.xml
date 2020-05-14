@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="module-test" />
+        <module name="spring-batch" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="module-test" target="1.7" />
+      <module name="spring-batch" target="1.8" />
+      <module name="spring-batch-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="module-test" options="-parameters" />
+      <module name="spring-batch" options="-parameters" />
+    </option>
+  </component>
+</project>
